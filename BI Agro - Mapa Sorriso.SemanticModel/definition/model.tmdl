@@ -1,0 +1,24 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["PROPRIEDADES UC","EMBARGO SEMA","USO DO SOLO","EMBARGO IBAMA","PROPRIEDADES SORRISO"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'PROPRIEDADES UC'
+ref table 'EMBARGO SEMA'
+ref table 'USO DO SOLO'
+ref table 'EMBARGO IBAMA'
+ref table 'PROPRIEDADES SORRISO'
+ref table Medidas
+ref table Parâmetro
+
+ref cultureInfo pt-BR
+

@@ -1,0 +1,119 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 102.706574655887,
+            "y": 333.29307800294993
+          },
+          "nodeIndex": "PROPRIEDADES UC",
+          "nodeLineageTag": "a6bbe485-5abe-4268-8d17-ac4e960e1334",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 5,
+          "expandedHeight": 248
+        },
+        {
+          "location": {
+            "x": 476.3524412719093,
+            "y": 122.42124362235334
+          },
+          "nodeIndex": "EMBARGO SEMA",
+          "nodeLineageTag": "f4a0faa4-426a-4ef1-8368-bf0f03dee2e5",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 2,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 831.54131493117745,
+            "y": 337.36053558248858
+          },
+          "nodeIndex": "USO DO SOLO",
+          "nodeLineageTag": "4e7672f8-0d17-4f88-8461-8e9f2cfd1a3d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 473.64755872809076,
+            "y": 546.42662270597521
+          },
+          "nodeIndex": "EMBARGO IBAMA",
+          "nodeLineageTag": "3b14319c-a7db-4880-af40-456eb91c41a8",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 4,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 474.02024861902157,
+            "y": 336.00403431271633
+          },
+          "nodeIndex": "PROPRIEDADES SORRISO",
+          "nodeLineageTag": "c008e78f-1287-4bfd-9a43-385bb74854f6",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 6,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 478.76055206467788,
+            "y": 7.000668997179389
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "38b92eb9-1dab-4e81-81af-8f0d5f7aba3b",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 1,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 1012.8347402752905,
+            "y": 248.046533186791
+          },
+          "nodeIndex": "Parâmetro",
+          "nodeLineageTag": "0efdf042-359e-4a5c-a99d-3c2f91f95f97",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 63.287087723233967,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

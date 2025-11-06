@@ -1,0 +1,161 @@
+table 'USO DO SOLO'
+	lineageTag: 4e7672f8-0d17-4f88-8461-8e9f2cfd1a3d
+
+	column ID_PROP
+		dataType: int64
+		formatString: 0
+		lineageTag: 58be2e9c-d456-4c5b-87ce-34f2e9f34220
+		summarizeBy: sum
+		sourceColumn: ID_PROP
+
+		annotation SummarizationSetBy = Automatic
+
+	column OBJECTID
+		dataType: int64
+		formatString: 0
+		lineageTag: dd18e28a-c842-4231-ab0f-58cb80908c7b
+		summarizeBy: count
+		sourceColumn: OBJECTID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPF/CNPJ
+		dataType: string
+		lineageTag: 4debb07f-787b-44f0-b67b-04e31cdeb16c
+		summarizeBy: none
+		sourceColumn: CPF/CNPJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column PF_PJ
+		dataType: string
+		lineageTag: 70f06a2b-d532-49a6-a779-2877908802d1
+		summarizeBy: none
+		sourceColumn: PF_PJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMESPROPR
+		dataType: string
+		lineageTag: 85b269ce-57c7-44df-9e67-2c17ed71dce1
+		summarizeBy: none
+		sourceColumn: NOMESPROPR
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMEROESTA
+		dataType: string
+		lineageTag: 0b8e08d2-c72d-4a9f-8fa3-c5ad10fd51a3
+		summarizeBy: none
+		sourceColumn: NUMEROESTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_CARFEDERAL
+		dataType: string
+		lineageTag: ba6f6e87-37af-40a1-9ae1-7390749e719c
+		summarizeBy: none
+		sourceColumn: CODIGO_CARFEDERAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMEPROPRI
+		dataType: string
+		lineageTag: e2733f12-73bd-4579-9453-fa01dad3e37a
+		summarizeBy: none
+		sourceColumn: NOMEPROPRI
+
+		annotation SummarizationSetBy = Automatic
+
+	column MUNICIPIO_
+		dataType: int64
+		formatString: 0
+		lineageTag: a399332c-e345-4494-bd83-15103d4fcbd8
+		summarizeBy: sum
+		sourceColumn: MUNICIPIO_
+
+		annotation SummarizationSetBy = Automatic
+
+	column DSC_MUNICIPIO
+		dataType: string
+		lineageTag: da45c2df-8cad-48dc-86b3-864c59442c83
+		summarizeBy: none
+		sourceColumn: DSC_MUNICIPIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODULOS_FI
+		dataType: double
+		lineageTag: 7692a456-08f3-4f4e-97d9-a283572094c0
+		summarizeBy: sum
+		sourceColumn: MODULOS_FI
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CRUZA_TERR
+		dataType: string
+		lineageTag: 8b31aa41-a15d-4b1e-ae19-a93a7ed0e60c
+		summarizeBy: none
+		sourceColumn: CRUZA_TERR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CRUZA_AREA
+		dataType: string
+		lineageTag: 8879ac7b-b7fb-414f-83de-ecf090abece6
+		summarizeBy: none
+		sourceColumn: CRUZA_AREA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_UsoSolo
+		dataType: int64
+		formatString: 0
+		lineageTag: 97f60fa2-20c8-433a-b0b3-7642c000dacd
+		summarizeBy: sum
+		sourceColumn: ID_UsoSolo
+
+		annotation SummarizationSetBy = Automatic
+
+	column UsoSolo
+		dataType: string
+		lineageTag: 051d34e6-597f-4ef2-b86b-60df8a20daa9
+		summarizeBy: none
+		sourceColumn: UsoSolo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Área de uso do solo'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: b98b3a7a-8cda-4df4-8843-e82538be58ec
+		summarizeBy: sum
+		sourceColumn: Área de uso do solo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column17
+		dataType: string
+		lineageTag: 4acd9049-a440-42c4-88d4-948935fb2001
+		summarizeBy: none
+		sourceColumn: Column17
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'USO DO SOLO' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\flavi\OneDrive\Área de Trabalho\SONAR ATIVIDADES\USO DO SOLO SORRISO.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_PROP", Int64.Type}, {"OBJECTID", Int64.Type}, {"CPF/CNPJ", type text}, {"PF_PJ", type text}, {"NOMESPROPR", type text}, {"NUMEROESTA", type text}, {"CODIGO_CARFEDERAL", type text}, {"NOMEPROPRI", type text}, {"MUNICIPIO_", Int64.Type}, {"DSC_MUNICIPIO", type text}, {"MODULOS_FI", type number}, {"CRUZA_TERR", type text}, {"CRUZA_AREA", type text}, {"ID_UsoSolo", Int64.Type}, {"UsoSolo", type text}, {"Área de uso do solo", type number}, {"Column17", type any}})
+				in
+				    #"Tipo Alterado"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,84 @@
+table 'EMBARGO SEMA'
+	lineageTag: f4a0faa4-426a-4ef1-8368-bf0f03dee2e5
+
+	column NUMEROESTA
+		dataType: string
+		lineageTag: b55ef7f7-e9b1-4c50-bef1-dd80b9259a4f
+		summarizeBy: none
+		sourceColumn: NUMEROESTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOME
+		dataType: string
+		lineageTag: 318f57b3-67f3-4680-9202-743d6e1a1c25
+		summarizeBy: none
+		sourceColumn: NOME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPF_CNPJ
+		dataType: string
+		lineageTag: 43703ccb-d83f-4012-8722-2dadebd88b60
+		summarizeBy: none
+		sourceColumn: CPF_CNPJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROPRIEDAD
+		dataType: string
+		lineageTag: 87af8eaf-7d54-4743-9589-3658c0c97ea9
+		summarizeBy: none
+		sourceColumn: PROPRIEDAD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DANO
+		dataType: string
+		lineageTag: 83e36101-ad51-4c64-bb29-458fc2a52702
+		summarizeBy: none
+		sourceColumn: DANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO_DESMAT
+		dataType: int64
+		formatString: 0
+		lineageTag: 9df5cc6c-b0d1-4cf2-bfb0-04f958cc1c64
+		summarizeBy: sum
+		sourceColumn: ANO_DESMAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column A_INFRAC
+		dataType: string
+		lineageTag: 0f77d712-d197-43ca-91b7-a6fb0e9e10dd
+		summarizeBy: none
+		sourceColumn: A_INFRAC
+
+		annotation SummarizationSetBy = Automatic
+
+	column T_EMBARGO
+		dataType: int64
+		formatString: 0
+		lineageTag: b48b3698-06bf-4bd5-b00e-b4539d199824
+		summarizeBy: sum
+		sourceColumn: T_EMBARGO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'EMBARGO SEMA' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\flavi\OneDrive\Área de Trabalho\SONAR ATIVIDADES\EMBARGO_SEMA.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"NUMEROESTA", type text}, {"NOME", type text}, {"CPF_CNPJ", type text}, {"PROPRIEDAD", type text}, {"DANO", type text}, {"ANO_DESMAT", Int64.Type}, {"A_INFRAC", type any}, {"T_EMBARGO", Int64.Type}})
+				in
+				    #"Tipo Alterado"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+

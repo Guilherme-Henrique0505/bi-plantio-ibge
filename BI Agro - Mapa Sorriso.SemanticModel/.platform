@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "BI Agro - Mapa Sorriso"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ff2faeca-eb08-4a49-8b93-78e2c1eb1c6a"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "6fea183943f889df289a",
+  "position": {
+    "x": 35.625,
+    "y": 0,
+    "z": 0,
+    "height": 27.5,
+    "width": 208.75
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "USO DO SOLO"
+                        }
+                      },
+                      "Property": "DSC_MUNICIPIO"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(USO DO SOLO.DSC_MUNICIPIO)",
+              "nativeQueryRef": "Primeiro DSC_MUNICIPIO"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

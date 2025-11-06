@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/localSettings/1.0.0/schema.json",
+  "remoteArtifacts": [
+    {
+      "reportId": "d172d242-ea9a-483b-9488-bfa74bad1812"
+    }
+  ],
+  "securityBindingsSignature": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAimINLY/pzkKoiBiIDi35LQAAAAACAAAAAAAQZgAAAAEAACAAAADuWHCEyzSM/B1bN55R2Cj/JT2NGFGjvM9Dx3QeCao6qQAAAAAOgAAAAAIAACAAAAC5JUHRG2gYBIqEegPjcRLUpLbceMBlJiYkqjIuZkd/flACAADqAsxPkdxyptaqFmrfQInwlhZuPH2PhH7UPxpFGjwo/DBcX3HhPv1oksEtHuBnsfgLHC4c23hMENthsEJp/neGyMqFoAq0TojLG7T167okiqZ3H8wRPJ9RrmgOgzdZCGPDeGPm4uo4q6Iu2iIFyO6RyRPty+9Io8LfS4WVrcS7JrDsneZo82SgyOGie2xVfe3n3JtoxrKAlAOEHkkw4+AFpszT7WrAgG7FBLWZjFj4HnEPkUoNHZSXpIjn9RFuDmgjm41Q0D+Tu93KNX7hbaRSa5VgQQMnvJqUURQH3bT7IABLDRDiX/ZEsx1Jip09h2TmjYgzFWmbEOTVb7gc/7qujjC0ZdmvWIYWytleSrGraOVZXkI6y5smmwu3F+f9pUH9zlqNZvS6UEgbvCToyuMrAwLTLIwEG5suAxgQIgcb4nwSa0WppVXAWUerMfgGXZ1LIsZRPJkFMRyIEQ0zVagyDfTOgBNE0a4iBBUZRlBsdAui6AeNkCyX6mWKHIWq1qKwvt0FVrZevSWXVjso+G+nacHmkrpYC55VIzGNAlPVmaa+sdKDjypdL7Yt+tHY+uBUbnxm1osqZtw8isckMr3T+cHu9zCQ5zBNAzUJxX/Te7Ueonb+fRUsRTAnnQFj0q+it9qVZRk8WZcJdZJV240jn7fA37UpcIaPrHM7ABu4/5Cg6WTlCOrYHrEAwFi8J1brrm2YeHInVStXN5w2TscB1pttA9L9AKF7FFhFVZ0v+G/QWGVicrJFoNFndAvw4L5aNpzSND8bPkvQpeBvBY63QAAAAANQb19gJTEHcEk/BdD+4dKeFFV83ePRxn+B6rFv4lF+0vxsW4M/lbUKvuOdx01ULaiySOp6ANnbFGrX/NutClo="
+}

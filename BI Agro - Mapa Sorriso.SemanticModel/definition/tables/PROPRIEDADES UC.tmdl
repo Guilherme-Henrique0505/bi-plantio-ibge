@@ -1,0 +1,77 @@
+table 'PROPRIEDADES UC'
+	lineageTag: a6bbe485-5abe-4268-8d17-ac4e960e1334
+
+	column NUMEROESTA
+		dataType: string
+		lineageTag: ce8eaabf-e785-43fa-9ca4-e12e136b138a
+		summarizeBy: none
+		sourceColumn: NUMEROESTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_CAR
+		dataType: string
+		lineageTag: e8c038d8-24f3-4ceb-90b6-d575446b2be6
+		summarizeBy: none
+		sourceColumn: CODIGO_CAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOME
+		dataType: string
+		lineageTag: 3b4d2945-0ec3-4883-b6e1-66687803ab7a
+		summarizeBy: none
+		sourceColumn: NOME
+
+		annotation SummarizationSetBy = Automatic
+
+	column JURISDICAO
+		dataType: string
+		lineageTag: b3c2b5db-66f4-419b-8b8d-2c530fc10eec
+		summarizeBy: none
+		sourceColumn: JURISDICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CATEGORIA
+		dataType: string
+		lineageTag: c6296673-9891-4eb7-9bab-ff87192a0809
+		summarizeBy: none
+		sourceColumn: CATEGORIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column GRUPO
+		dataType: string
+		lineageTag: c7ad9681-0335-496b-aca0-5e7f1476a7b9
+		summarizeBy: none
+		sourceColumn: GRUPO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMESPROPR
+		dataType: string
+		lineageTag: c0cdee1f-d845-4a61-919a-d7acb31b7d6b
+		summarizeBy: none
+		sourceColumn: NOMESPROPR
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'PROPRIEDADES UC' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\flavi\OneDrive\Área de Trabalho\SONAR ATIVIDADES\SOBREPOSICAO_UC.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Planilha1_Sheet,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}}),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Tipo Alterado", [PromoteAllScalars=true]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"NUMEROESTA", type text}, {"CODIGO_CAR", type text}, {"NOME", type text}, {"JURISDICAO", type text}, {"CATEGORIA", type text}, {"GRUPO", type text}, {"NOMESPROPR", type text}})
+				in
+				    #"Tipo Alterado1"
+
+	changedProperty = Name
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

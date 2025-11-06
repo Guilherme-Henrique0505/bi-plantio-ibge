@@ -1,0 +1,85 @@
+table 'EMBARGO IBAMA'
+	lineageTag: 3b14319c-a7db-4880-af40-456eb91c41a8
+
+	column NUMEROESTA
+		dataType: string
+		lineageTag: b41a1a98-f0b3-40e6-8db4-3383e42ae72f
+		summarizeBy: none
+		sourceColumn: NUMEROESTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FID_adm_embargo_ibama_a_Clip
+		dataType: int64
+		formatString: 0
+		lineageTag: 93d4feab-3d24-46dd-867e-99e8651c28eb
+		summarizeBy: sum
+		sourceColumn: FID_adm_embargo_ibama_a_Clip
+
+		annotation SummarizationSetBy = Automatic
+
+	column objectid
+		dataType: int64
+		formatString: 0
+		lineageTag: f1d57d6f-a693-4e4f-8c45-c6ee3aea9ea9
+		summarizeBy: sum
+		sourceColumn: objectid
+
+		annotation SummarizationSetBy = Automatic
+
+	column seqtad
+		dataType: int64
+		formatString: 0
+		lineageTag: c76e217b-1ec3-4f51-ab73-59795033f34d
+		summarizeBy: sum
+		sourceColumn: seqtad
+
+		annotation SummarizationSetBy = Automatic
+
+	column numtad
+		dataType: string
+		lineageTag: 52f39e12-bf75-4db8-9a0f-922e744077e9
+		summarizeBy: none
+		sourceColumn: numtad
+
+		annotation SummarizationSetBy = Automatic
+
+	column sertad
+		dataType: string
+		lineageTag: 4eefb90f-b175-41eb-944e-cf0f9d7f75c5
+		summarizeBy: none
+		sourceColumn: sertad
+
+		annotation SummarizationSetBy = Automatic
+
+	column deslocaliz
+		dataType: string
+		lineageTag: b0e9e2f7-6825-4295-8b51-a62077189aea
+		summarizeBy: none
+		sourceColumn: deslocaliz
+
+		annotation SummarizationSetBy = Automatic
+
+	column destad
+		dataType: string
+		lineageTag: 3aa8bd14-d788-4290-8154-4ff1d028f8e1
+		summarizeBy: none
+		sourceColumn: destad
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'EMBARGO IBAMA' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\flavi\OneDrive\Área de Trabalho\SONAR ATIVIDADES\EMBARGO_IBAMA.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"NUMEROESTA", type text}, {"FID_adm_embargo_ibama_a_Clip", Int64.Type}, {"objectid", Int64.Type}, {"seqtad", Int64.Type}, {"numtad", type any}, {"sertad", type text}, {"deslocaliz", type text}, {"destad", type text}})
+				in
+				    #"Tipo Alterado"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+

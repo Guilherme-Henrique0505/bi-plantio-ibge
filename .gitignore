@@ -1,0 +1,15 @@
+# Arquivos temporários e de cache do Power BI
+*.pbix
+.pbi/localcache
+.pbi/qpcache
+.pbi/temp
+
+# Ignorar o arquivo de dados do modelo (mantemos apenas o código)
+dataset\local.json
+dataset\pbi.xml
+dataset\security.json
+dataset\database.json
+
+# Arquivos temporários do Git
+*.swp
+*~

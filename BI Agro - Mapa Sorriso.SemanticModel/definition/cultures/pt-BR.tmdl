@@ -1,0 +1,4423 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "propriedades_uc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "propriedades uc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "propriedade uc": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.numeroesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "NUMEROESTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numeroesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.codigo_car": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "CODIGO_CAR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo car": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CODIGO_CAR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "codigo carriage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo Pullman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo flatcar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo sleeper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo wagon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "codigo coach": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "codigo compartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "codigo vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "codigo sedan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "codigo coupé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "NOME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.jurisdicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "JURISDICAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jurisdicao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "CATEGORIA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.grupo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "GRUPO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "grupo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_uc.nomespropr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES UC",
+			          "ConceptualProperty": "NOMESPROPR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nomespropr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "embargo sema": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.numeroesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "NUMEROESTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numeroesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "NOME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.cpf_cnpj": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "CPF_CNPJ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cpf cnpj": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CPF_CNPJ": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.propriedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "PROPRIEDAD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "propriedad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.dano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "DANO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.ano_desmat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "ANO_DESMAT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano desmat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ANO_DESMAT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.a_infrac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "A_INFRAC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "a infrac": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "A_INFRAC": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_sema.t_embargo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO SEMA",
+			          "ConceptualProperty": "T_EMBARGO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "t embargo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "T_EMBARGO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "embargo": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "t restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "t prohibition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "t restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "t stoppage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "t impediment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prohibition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stoppage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "impediment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uso do solo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.id_prop": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "ID_PROP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id prop": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_PROP": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "prop": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification prop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity prop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier prop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential prop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id leg": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id crutch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id pile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id strut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.objectid": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "OBJECTID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "objectid": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.cpf_cnpj": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "CPF/CNPJ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cpf/cnpj": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cpf": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cnpj": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.pf_pj": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "PF_PJ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pf pj": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PF_PJ": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.nomespropr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "NOMESPROPR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nomespropr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.numeroesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "NUMEROESTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numeroesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.codigo_carfederal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "CODIGO_CARFEDERAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo carfederal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CODIGO_CARFEDERAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.nomepropri": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "NOMEPROPRI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nomepropri": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nome Propriedade": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.municipio_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "MUNICIPIO_"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio_": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.dsc_municipio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "DSC_MUNICIPIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dsc municipio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DSC_MUNICIPIO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.modulos_fi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "MODULOS_FI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modulos fi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "modulo fi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MODULOS_FI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.cruza_terr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "CRUZA_TERR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cruza terr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CRUZA_TERR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.cruza_area": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "CRUZA_AREA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cruza area": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CRUZA_AREA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cruza region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "cruza locale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "cruza locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "cruza neighbourhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "cruza district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cruza continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cruza field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cruza neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cruza section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cruza space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.ID_uso_solo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "ID_UsoSolo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID uso solo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_UsoSolo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification uso solo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity uso solo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier uso solo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential uso solo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.uso_solo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "UsoSolo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uso solo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UsoSolo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.área_de_uso_do_solo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "Área de uso do solo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "área de uso do solo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "uso_do_solo.column_17": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "USO DO SOLO",
+			          "ConceptualProperty": "Column17"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 17": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column17": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "embargo ibama": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.numeroesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "NUMEROESTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numeroesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.FID_adm_embargo_ibama_a_clip": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "FID_adm_embargo_ibama_a_Clip"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "FID adm embargo ibama a clip": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FID_adm_embargo_ibama_a_Clip": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.objectid": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "objectid"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "objectid": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.seqtad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "seqtad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seqtad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.numtad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "numtad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numtad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.sertad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "sertad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sertad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.deslocaliz": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "deslocaliz"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "deslocaliz": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "embargo_ibama.destad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMBARGO IBAMA",
+			          "ConceptualProperty": "destad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "destad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "propriedades sorriso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "propriedade sorriso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.cpf_cnpj": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "CPF/CNPJ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cpf/cnpj": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cpf": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cnpj": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.pf_pj": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "PF_PJ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pf pj": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PF_PJ": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.nomespropr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "NOMESPROPR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nomespropr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.numeroesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "NUMEROESTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numeroesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.codigo_car": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "CODIGO_CAR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo car": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CODIGO_CAR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "codigo carriage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo Pullman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo flatcar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo sleeper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "codigo wagon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "codigo coach": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "codigo compartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "codigo vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "codigo sedan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "codigo coupé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.protocolo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "PROTOCOLO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "protocolo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.nomepropri": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "NOMEPROPRI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nomepropri": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.area_ha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "AREA_HA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area ha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AREA_HA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ha": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "region ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locale ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locality ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "neighbourhood ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "district ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "continent ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "field ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "neighborhood ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "space ha": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso.coluna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PROPRIEDADES SORRISO",
+			          "ConceptualProperty": "Coluna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coluna": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_área": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Área"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total área": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate área": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall área": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_soja": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Soja"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total soja": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate soja": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall soja": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_silvicultura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Silvicultura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total silvicultura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate silvicultura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall silvicultura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_pastagem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Pastagem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total pastagem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate pastagem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall pastagem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_agricultável": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Agricultável"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total agricultável": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate agricultável": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall agricultável": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.aproveitamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Aproveitamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aproveitamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro.parâmetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro",
+			          "ConceptualProperty": "Parâmetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parâmetro name": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "parâmetro.parâmetro_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro",
+			          "ConceptualProperty": "Parâmetro Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro.parâmetro_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro",
+			          "ConceptualProperty": "Parâmetro Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "uso_do_solo_has_propriedades_sorriso": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_propriedades_sorrisos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_uso_do_solos"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_propriedades_sorriso": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_propriedades_sorrisos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_embargo_semas"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_propriedades_sorriso": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_propriedades_sorrisos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_propriedades_uc"
+			        }
+			      ]
+			    },
+			    "parâmetro_has_parâmetro": {
+			      "Binding": {
+			        "ConceptualEntity": "Parâmetro"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parâmetro": {
+			          "Target": {
+			            "Entity": "parâmetro"
+			          }
+			        },
+			        "parâmetro.parâmetro": {
+			          "Target": {
+			            "Entity": "parâmetro.parâmetro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parâmetro"
+			            },
+			            "Object": {
+			              "Role": "parâmetro.parâmetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parâmetros_have_parâmetros"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "parâmetro"
+			            },
+			            "Name": {
+			              "Role": "parâmetro.parâmetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parâmetros_are_names_IDs_of_parâmetros"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_medida_aproveitamento": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "medida.aproveitamento": {
+			          "Target": {
+			            "Entity": "medida.aproveitamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "medida.aproveitamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_aproveitamento"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_medida_total_agricultável": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "medida.total_agricultável": {
+			          "Target": {
+			            "Entity": "medida.total_agricultável"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "medida.total_agricultável"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_total_agricultável"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_medida_total_pastagem": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "medida.total_pastagem": {
+			          "Target": {
+			            "Entity": "medida.total_pastagem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "medida.total_pastagem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_total_pastagem"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_medida_total_silvicultura": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "medida.total_silvicultura": {
+			          "Target": {
+			            "Entity": "medida.total_silvicultura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "medida.total_silvicultura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_total_silvicultura"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_medida_total_soja": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "medida.total_soja": {
+			          "Target": {
+			            "Entity": "medida.total_soja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "medida.total_soja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_total_soja"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_medida_total_área": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "medida.total_área": {
+			          "Target": {
+			            "Entity": "medida.total_área"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "medida.total_área"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_total_área"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant10k": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant10k": {
+			          "Target": {
+			            "Entity": "medida.quant10k"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant10k"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant10k"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_500_1a_10000": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_500_1a_10000": {
+			          "Target": {
+			            "Entity": "medida.quant_500_1a_10000"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_500_1a_10000"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_500_1a_10000"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_150_1a_5000": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_150_1a_5000": {
+			          "Target": {
+			            "Entity": "medida.quant_150_1a_5000"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_150_1a_5000"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_150_1a_5000"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_100_1a_1500": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_100_1a_1500": {
+			          "Target": {
+			            "Entity": "medida.quant_100_1a_1500"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_100_1a_1500"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_100_1a_1500"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_50_1a_1000": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_50_1a_1000": {
+			          "Target": {
+			            "Entity": "medida.quant_50_1a_1000"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_50_1a_1000"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_50_1a_1000"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_20_1a_500": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_20_1a_500": {
+			          "Target": {
+			            "Entity": "medida.quant_20_1a_500"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_20_1a_500"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_20_1a_500"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_10_1a_200": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_10_1a_200": {
+			          "Target": {
+			            "Entity": "medida.quant_10_1a_200"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_10_1a_200"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_10_1a_200"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_5_1a_100": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_5_1a_100": {
+			          "Target": {
+			            "Entity": "medida.quant_5_1a_100"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_5_1a_100"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_5_1a_100"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_2_1a_50": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_2_1a_50": {
+			          "Target": {
+			            "Entity": "medida.quant_2_1a_50"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_2_1a_50"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_2_1a_50"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_medida_quant_0a_20": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "medida.quant_0a_20": {
+			          "Target": {
+			            "Entity": "medida.quant_0a_20"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "medida.quant_0a_20"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_quant_0a_20"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_coluna": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.coluna": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.coluna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.coluna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_colunas"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_area_ha": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.area_ha": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.area_ha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.area_ha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_area_ha"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_nomepropri": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.nomepropri": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.nomepropri"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.nomepropri"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_nomepropris"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_protocolo": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.protocolo": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.protocolo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.protocolo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_protocolos"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_codigo_car": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.codigo_car": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.codigo_car"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.codigo_car"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_codigo_cars"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_numeroesta": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.numeroesta": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.numeroesta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.numeroesta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_numeroestas"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_nomespropr": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.nomespropr": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.nomespropr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.nomespropr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_nomesproprs"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_pf_pj": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.pf_pj": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.pf_pj"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.pf_pj"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_pf_pjs"
+			        }
+			      ]
+			    },
+			    "propriedades_sorriso_has_cpf_cnpj": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES SORRISO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        },
+			        "propriedades_sorriso.cpf_cnpj": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso.cpf_cnpj"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso.cpf_cnpj"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_cpf_cnpjs"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_destad": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.destad": {
+			          "Target": {
+			            "Entity": "embargo_ibama.destad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.destad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_destads"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_deslocaliz": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.deslocaliz": {
+			          "Target": {
+			            "Entity": "embargo_ibama.deslocaliz"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.deslocaliz"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_deslocalizzes"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_sertad": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.sertad": {
+			          "Target": {
+			            "Entity": "embargo_ibama.sertad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.sertad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_sertads"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_numtad": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.numtad": {
+			          "Target": {
+			            "Entity": "embargo_ibama.numtad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.numtad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_numtads"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_seqtad": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.seqtad": {
+			          "Target": {
+			            "Entity": "embargo_ibama.seqtad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.seqtad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_seqtads"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_objectid": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.objectid": {
+			          "Target": {
+			            "Entity": "embargo_ibama.objectid"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.objectid"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_objectids"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_FID_adm_embargo_ibama_a_clip": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "embargo_ibama.FID_adm_embargo_ibama_a_clip": {
+			          "Target": {
+			            "Entity": "embargo_ibama.FID_adm_embargo_ibama_a_clip"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama.FID_adm_embargo_ibama_a_clip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_FID_adm_embargo_ibama_a_clip"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_column_17": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.column_17": {
+			          "Target": {
+			            "Entity": "uso_do_solo.column_17"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.column_17"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_column_17"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_área_de_uso_do_solo": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.área_de_uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo.área_de_uso_do_solo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.área_de_uso_do_solo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_área_de_uso_do_solos"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_uso_solo": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.uso_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo.uso_solo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.uso_solo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_uso_solos"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_ID_uso_solo": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.ID_uso_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo.ID_uso_solo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.ID_uso_solo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_ID_uso_solos"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_cruza_area": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.cruza_area": {
+			          "Target": {
+			            "Entity": "uso_do_solo.cruza_area"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.cruza_area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_cruza_areas"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_cruza_terr": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.cruza_terr": {
+			          "Target": {
+			            "Entity": "uso_do_solo.cruza_terr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.cruza_terr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_cruza_terrs"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_modulos_fi": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.modulos_fi": {
+			          "Target": {
+			            "Entity": "uso_do_solo.modulos_fi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.modulos_fi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_modulos_fis"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_dsc_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.dsc_municipio": {
+			          "Target": {
+			            "Entity": "uso_do_solo.dsc_municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.dsc_municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_dsc_municipios"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_municipio_": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.municipio_": {
+			          "Target": {
+			            "Entity": "uso_do_solo.municipio_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.municipio_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_municipio_"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_nomepropri": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.nomepropri": {
+			          "Target": {
+			            "Entity": "uso_do_solo.nomepropri"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.nomepropri"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_nomepropris"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_codigo_carfederal": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.codigo_carfederal": {
+			          "Target": {
+			            "Entity": "uso_do_solo.codigo_carfederal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.codigo_carfederal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_codigo_carfederals"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_nomespropr": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.nomespropr": {
+			          "Target": {
+			            "Entity": "uso_do_solo.nomespropr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.nomespropr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_nomesproprs"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_pf_pj": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.pf_pj": {
+			          "Target": {
+			            "Entity": "uso_do_solo.pf_pj"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.pf_pj"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_pf_pjs"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_cpf_cnpj": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.cpf_cnpj": {
+			          "Target": {
+			            "Entity": "uso_do_solo.cpf_cnpj"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.cpf_cnpj"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_cpf_cnpjs"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_objectid": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.objectid": {
+			          "Target": {
+			            "Entity": "uso_do_solo.objectid"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.objectid"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_objectids"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_has_id_prop": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.id_prop": {
+			          "Target": {
+			            "Entity": "uso_do_solo.id_prop"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Object": {
+			              "Role": "uso_do_solo.id_prop"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_have_id_props"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_t_embargo": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.t_embargo": {
+			          "Target": {
+			            "Entity": "embargo_sema.t_embargo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.t_embargo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_t_embargoes"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_a_infrac": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.a_infrac": {
+			          "Target": {
+			            "Entity": "embargo_sema.a_infrac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.a_infrac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_a_infrac"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_ano_desmat": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.ano_desmat": {
+			          "Target": {
+			            "Entity": "embargo_sema.ano_desmat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.ano_desmat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_ano_desmats"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_dano": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.dano": {
+			          "Target": {
+			            "Entity": "embargo_sema.dano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.dano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_danos"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_propriedad": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.propriedad": {
+			          "Target": {
+			            "Entity": "embargo_sema.propriedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.propriedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_propriedads"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_cpf_cnpj": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.cpf_cnpj": {
+			          "Target": {
+			            "Entity": "embargo_sema.cpf_cnpj"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.cpf_cnpj"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_cpf_cnpjs"
+			        }
+			      ]
+			    },
+			    "embargo_sema_has_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO SEMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_sema": {
+			          "Target": {
+			            "Entity": "embargo_sema"
+			          }
+			        },
+			        "embargo_sema.nome": {
+			          "Target": {
+			            "Entity": "embargo_sema.nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_sema"
+			            },
+			            "Object": {
+			              "Role": "embargo_sema.nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_semas_have_nome"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_nomespropr": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_uc.nomespropr": {
+			          "Target": {
+			            "Entity": "propriedades_uc.nomespropr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc.nomespropr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_nomesproprs"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_grupo": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_uc.grupo": {
+			          "Target": {
+			            "Entity": "propriedades_uc.grupo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc.grupo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_grupos"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_uc.categoria": {
+			          "Target": {
+			            "Entity": "propriedades_uc.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_categorias"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_jurisdicao": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_uc.jurisdicao": {
+			          "Target": {
+			            "Entity": "propriedades_uc.jurisdicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc.jurisdicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_jurisdicaos"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_uc.nome": {
+			          "Target": {
+			            "Entity": "propriedades_uc.nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc.nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_nome"
+			        }
+			      ]
+			    },
+			    "propriedades_uc_has_codigo_car": {
+			      "Binding": {
+			        "ConceptualEntity": "PROPRIEDADES UC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "propriedades_uc": {
+			          "Target": {
+			            "Entity": "propriedades_uc"
+			          }
+			        },
+			        "propriedades_uc.codigo_car": {
+			          "Target": {
+			            "Entity": "propriedades_uc.codigo_car"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_uc"
+			            },
+			            "Object": {
+			              "Role": "propriedades_uc.codigo_car"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_uc_have_codigo_cars"
+			        }
+			      ]
+			    },
+			    "uso_do_solo_in_cruza_area": {
+			      "Binding": {
+			        "ConceptualEntity": "USO DO SOLO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "uso_do_solo": {
+			          "Target": {
+			            "Entity": "uso_do_solo"
+			          }
+			        },
+			        "uso_do_solo.cruza_area": {
+			          "Target": {
+			            "Entity": "uso_do_solo.cruza_area"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "uso_do_solo.cruza_area"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "uso_do_solo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "uso_do_solo.cruza_area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "uso_do_solos_are_in_cruza_areas"
+			        }
+			      ]
+			    },
+			    "embargo_ibama_has_propriedades_sorriso": {
+			      "Binding": {
+			        "ConceptualEntity": "EMBARGO IBAMA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "embargo_ibama": {
+			          "Target": {
+			            "Entity": "embargo_ibama"
+			          }
+			        },
+			        "propriedades_sorriso": {
+			          "Target": {
+			            "Entity": "propriedades_sorriso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "embargo_ibama"
+			            },
+			            "Object": {
+			              "Role": "propriedades_sorriso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "embargo_ibamas_have_propriedades_sorrisos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "propriedades_sorriso"
+			            },
+			            "Object": {
+			              "Role": "embargo_ibama"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "propriedades_sorrisos_have_embargo_ibamas"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

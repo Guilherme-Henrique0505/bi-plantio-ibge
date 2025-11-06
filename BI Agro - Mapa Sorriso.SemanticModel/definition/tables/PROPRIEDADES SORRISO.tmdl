@@ -1,0 +1,104 @@
+table 'PROPRIEDADES SORRISO'
+	lineageTag: c008e78f-1287-4bfd-9a43-385bb74854f6
+
+	column CPF/CNPJ
+		dataType: string
+		lineageTag: c4d93fbc-9c98-4b27-9bdf-0dfaa6fe8089
+		summarizeBy: none
+		sourceColumn: CPF/CNPJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column PF_PJ
+		dataType: string
+		lineageTag: 3197c666-9a41-437e-b589-c69ea124d912
+		summarizeBy: none
+		sourceColumn: PF_PJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMESPROPR
+		dataType: string
+		lineageTag: 1c544cfd-e176-4a25-ac4a-af83e0efb3b3
+		summarizeBy: none
+		sourceColumn: NOMESPROPR
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMEROESTA
+		dataType: string
+		lineageTag: a627a58c-50d7-4fe4-b386-a2d977c19f2e
+		summarizeBy: none
+		sourceColumn: NUMEROESTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_CAR
+		dataType: string
+		lineageTag: f58f7303-c9bb-4f18-a6ee-584a16cbc7ba
+		summarizeBy: none
+		sourceColumn: CODIGO_CAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROTOCOLO
+		dataType: string
+		lineageTag: 78a4fd24-bc99-4481-9c01-761d0be2e75c
+		summarizeBy: none
+		sourceColumn: PROTOCOLO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMEPROPRI
+		dataType: string
+		lineageTag: 1603ca7d-be08-42d0-805f-911d6efcf663
+		summarizeBy: none
+		sourceColumn: NOMEPROPRI
+
+		annotation SummarizationSetBy = Automatic
+
+	column AREA_HA
+		dataType: double
+		lineageTag: da2eceef-0e95-4837-936e-9fbe5f2b5167
+		summarizeBy: sum
+		sourceColumn: AREA_HA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Coluna =
+			SWITCH(
+			TRUE(),
+			'PROPRIEDADES SORRISO'[AREA_HA] < 20, "Menor Que 20",
+			'PROPRIEDADES SORRISO'[AREA_HA] >20 && 'PROPRIEDADES SORRISO'[AREA_HA] <50, "Entre 21 e 50",
+			'PROPRIEDADES SORRISO'[AREA_HA] >50 && 'PROPRIEDADES SORRISO'[AREA_HA] <100, "Entre 51 e 100",
+			'PROPRIEDADES SORRISO'[AREA_HA] >100 && 'PROPRIEDADES SORRISO'[AREA_HA] <200, "Entre 101 e 200",
+			'PROPRIEDADES SORRISO'[AREA_HA] >200 && 'PROPRIEDADES SORRISO'[AREA_HA] <500, "Entre 201 e 500",
+			'PROPRIEDADES SORRISO'[AREA_HA] >500 && 'PROPRIEDADES SORRISO'[AREA_HA] <1000, "Entre 501 e 1000",
+			'PROPRIEDADES SORRISO'[AREA_HA] >1000 && 'PROPRIEDADES SORRISO'[AREA_HA] <1500, "Entre 1001 e 1500",
+			'PROPRIEDADES SORRISO'[AREA_HA] >1500 && 'PROPRIEDADES SORRISO'[AREA_HA] <5000, "Entre 1501 e 5000",
+			'PROPRIEDADES SORRISO'[AREA_HA] >5000 && 'PROPRIEDADES SORRISO'[AREA_HA] <10000, "Entre 5001 e 10000",
+			'PROPRIEDADES SORRISO'[AREA_HA] >10000, "Maior Que 10000"
+			)
+		lineageTag: 140a8fd6-4ac9-47ed-9e6a-e7b3f85ab85e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'PROPRIEDADES SORRISO' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\flavi\OneDrive\Área de Trabalho\SONAR ATIVIDADES\PROPRIEDADES.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"CPF/CNPJ", type any}, {"PF_PJ", type text}, {"NOMESPROPR", type text}, {"NUMEROESTA", type text}, {"CODIGO_CAR", type text}, {"PROTOCOLO", type text}, {"NOMEPROPRI", type text}, {"AREA_HA", type number}}),
+				    #"Duplicatas Removidas" = Table.Distinct(#"Tipo Alterado", {"NUMEROESTA"})
+				in
+				    #"Duplicatas Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+
