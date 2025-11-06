@@ -1,4 +1,4 @@
-table 'EMBARGO SEMA'
+table d_Proprietarios
 	lineageTag: f4a0faa4-426a-4ef1-8368-bf0f03dee2e5
 
 	column NUMEROESTA
@@ -67,7 +67,7 @@ table 'EMBARGO SEMA'
 
 		annotation SummarizationSetBy = Automatic
 
-	partition 'EMBARGO SEMA' = m
+	partition d_Proprietarios = m
 		mode: import
 		source =
 				let

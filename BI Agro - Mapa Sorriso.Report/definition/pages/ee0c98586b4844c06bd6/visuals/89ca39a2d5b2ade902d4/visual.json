@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "USO DO SOLO"
+                      "Entity": "d_Cultura"
                     }
                   },
                   "Property": "NOMEPROPRI"
@@ -37,7 +37,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "USO DO SOLO"
+                          "Entity": "d_Cultura"
                         }
                       },
                       "Property": "Área de uso do solo"
@@ -62,7 +62,7 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "USO DO SOLO"
+                        "Entity": "d_Cultura"
                       }
                     },
                     "Property": "Área de uso do solo"

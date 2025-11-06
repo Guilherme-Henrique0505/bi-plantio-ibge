@@ -1,4 +1,4 @@
-table 'PROPRIEDADES SORRISO'
+table f_Propriedades
 	lineageTag: c008e78f-1287-4bfd-9a43-385bb74854f6
 
 	column CPF/CNPJ
@@ -70,23 +70,23 @@ table 'PROPRIEDADES SORRISO'
 	column Coluna =
 			SWITCH(
 			TRUE(),
-			'PROPRIEDADES SORRISO'[AREA_HA] < 20, "Menor Que 20",
-			'PROPRIEDADES SORRISO'[AREA_HA] >20 && 'PROPRIEDADES SORRISO'[AREA_HA] <50, "Entre 21 e 50",
-			'PROPRIEDADES SORRISO'[AREA_HA] >50 && 'PROPRIEDADES SORRISO'[AREA_HA] <100, "Entre 51 e 100",
-			'PROPRIEDADES SORRISO'[AREA_HA] >100 && 'PROPRIEDADES SORRISO'[AREA_HA] <200, "Entre 101 e 200",
-			'PROPRIEDADES SORRISO'[AREA_HA] >200 && 'PROPRIEDADES SORRISO'[AREA_HA] <500, "Entre 201 e 500",
-			'PROPRIEDADES SORRISO'[AREA_HA] >500 && 'PROPRIEDADES SORRISO'[AREA_HA] <1000, "Entre 501 e 1000",
-			'PROPRIEDADES SORRISO'[AREA_HA] >1000 && 'PROPRIEDADES SORRISO'[AREA_HA] <1500, "Entre 1001 e 1500",
-			'PROPRIEDADES SORRISO'[AREA_HA] >1500 && 'PROPRIEDADES SORRISO'[AREA_HA] <5000, "Entre 1501 e 5000",
-			'PROPRIEDADES SORRISO'[AREA_HA] >5000 && 'PROPRIEDADES SORRISO'[AREA_HA] <10000, "Entre 5001 e 10000",
-			'PROPRIEDADES SORRISO'[AREA_HA] >10000, "Maior Que 10000"
+			'f_Propriedades'[AREA_HA] < 20, "Menor Que 20",
+			'f_Propriedades'[AREA_HA] >20 && 'f_Propriedades'[AREA_HA] <50, "Entre 21 e 50",
+			'f_Propriedades'[AREA_HA] >50 && 'f_Propriedades'[AREA_HA] <100, "Entre 51 e 100",
+			'f_Propriedades'[AREA_HA] >100 && 'f_Propriedades'[AREA_HA] <200, "Entre 101 e 200",
+			'f_Propriedades'[AREA_HA] >200 && 'f_Propriedades'[AREA_HA] <500, "Entre 201 e 500",
+			'f_Propriedades'[AREA_HA] >500 && 'f_Propriedades'[AREA_HA] <1000, "Entre 501 e 1000",
+			'f_Propriedades'[AREA_HA] >1000 && 'f_Propriedades'[AREA_HA] <1500, "Entre 1001 e 1500",
+			'f_Propriedades'[AREA_HA] >1500 && 'f_Propriedades'[AREA_HA] <5000, "Entre 1501 e 5000",
+			'f_Propriedades'[AREA_HA] >5000 && 'f_Propriedades'[AREA_HA] <10000, "Entre 5001 e 10000",
+			'f_Propriedades'[AREA_HA] >10000, "Maior Que 10000"
 			)
 		lineageTag: 140a8fd6-4ac9-47ed-9e6a-e7b3f85ab85e
 		summarizeBy: none
 
 		annotation SummarizationSetBy = Automatic
 
-	partition 'PROPRIEDADES SORRISO' = m
+	partition f_Propriedades = m
 		mode: import
 		source =
 				let
@@ -97,6 +97,8 @@ table 'PROPRIEDADES SORRISO'
 				    #"Duplicatas Removidas" = Table.Distinct(#"Tipo Alterado", {"NUMEROESTA"})
 				in
 				    #"Duplicatas Removidas"
+
+	changedProperty = Name
 
 	annotation PBI_ResultType = Table
 

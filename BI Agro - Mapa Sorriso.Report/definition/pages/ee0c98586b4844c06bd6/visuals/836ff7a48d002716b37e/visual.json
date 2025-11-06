@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "USO DO SOLO"
+                      "Entity": "d_Cultura"
                     }
                   },
                   "Property": "UsoSolo"
@@ -139,7 +139,7 @@
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "USO DO SOLO"
+                "Entity": "d_Cultura"
               }
             },
             "Property": "UsoSolo"
@@ -151,7 +151,7 @@
           "From": [
             {
               "Name": "u",
-              "Entity": "USO DO SOLO",
+              "Entity": "d_Cultura",
               "Type": 0
             }
           ],

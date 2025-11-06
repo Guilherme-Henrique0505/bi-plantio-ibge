@@ -6,19 +6,18 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["PROPRIEDADES UC","EMBARGO SEMA","USO DO SOLO","EMBARGO IBAMA","PROPRIEDADES SORRISO"]
+annotation PBI_QueryOrder = ["d_Propriedades","d_Proprietarios","d_Cultura","EMBARGO IBAMA","f_Propriedades","Medidas"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-ref table 'PROPRIEDADES UC'
-ref table 'EMBARGO SEMA'
-ref table 'USO DO SOLO'
+ref table d_Propriedades
+ref table d_Proprietarios
+ref table d_Cultura
 ref table 'EMBARGO IBAMA'
-ref table 'PROPRIEDADES SORRISO'
+ref table f_Propriedades
 ref table Medidas
-ref table Parâmetro
 
 ref cultureInfo pt-BR
 

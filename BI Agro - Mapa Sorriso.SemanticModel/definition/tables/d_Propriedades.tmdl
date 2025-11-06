@@ -1,4 +1,4 @@
-table 'PROPRIEDADES UC'
+table d_Propriedades
 	lineageTag: a6bbe485-5abe-4268-8d17-ac4e960e1334
 
 	column NUMEROESTA
@@ -57,7 +57,7 @@ table 'PROPRIEDADES UC'
 
 		annotation SummarizationSetBy = Automatic
 
-	partition 'PROPRIEDADES UC' = m
+	partition d_Propriedades = m
 		mode: import
 		source =
 				let

@@ -1,16 +1,16 @@
 relationship f8d9fb9f-ad15-13be-8765-c9db5070a4e9
-	fromColumn: 'USO DO SOLO'.NUMEROESTA
-	toColumn: 'PROPRIEDADES SORRISO'.NUMEROESTA
+	fromColumn: d_Cultura.NUMEROESTA
+	toColumn: f_Propriedades.NUMEROESTA
 
 relationship ed779671-fafb-e0e7-30ee-491a6dcd832f
 	fromColumn: 'EMBARGO IBAMA'.NUMEROESTA
-	toColumn: 'PROPRIEDADES SORRISO'.NUMEROESTA
+	toColumn: f_Propriedades.NUMEROESTA
 
 relationship 741ffd11-b06c-cd0b-1459-afc188df902d
-	fromColumn: 'PROPRIEDADES UC'.NUMEROESTA
-	toColumn: 'PROPRIEDADES SORRISO'.NUMEROESTA
+	fromColumn: d_Propriedades.NUMEROESTA
+	toColumn: f_Propriedades.NUMEROESTA
 
 relationship 6252e60d-70e8-0622-6701-f476d6b20369
-	fromColumn: 'EMBARGO SEMA'.NUMEROESTA
-	toColumn: 'PROPRIEDADES SORRISO'.NUMEROESTA
+	fromColumn: d_Proprietarios.NUMEROESTA
+	toColumn: f_Propriedades.NUMEROESTA
 

@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "USO DO SOLO"
+                      "Entity": "d_Cultura"
                     }
                   },
                   "Property": "UsoSolo"
@@ -41,7 +41,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "USO DO SOLO"
+                          "Entity": "d_Cultura"
                         }
                       },
                       "Property": "NOMEPROPRI"
@@ -67,7 +67,7 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "USO DO SOLO"
+                        "Entity": "d_Cultura"
                       }
                     },
                     "Property": "NOMEPROPRI"
@@ -184,7 +184,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -226,7 +226,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -267,7 +267,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -308,7 +308,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -349,7 +349,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -391,7 +391,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -432,7 +432,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -474,7 +474,7 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Entity": "USO DO SOLO"
+                            "Entity": "d_Cultura"
                           }
                         },
                         "Property": "UsoSolo"
@@ -579,7 +579,7 @@
               "Column": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "USO DO SOLO"
+                    "Entity": "d_Cultura"
                   }
                 },
                 "Property": "NOMEPROPRI"
@@ -594,7 +594,7 @@
           "From": [
             {
               "Name": "u",
-              "Entity": "USO DO SOLO",
+              "Entity": "d_Cultura",
               "Type": 0
             }
           ],

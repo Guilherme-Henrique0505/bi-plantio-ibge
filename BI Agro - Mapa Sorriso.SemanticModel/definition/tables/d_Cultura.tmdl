@@ -1,4 +1,4 @@
-table 'USO DO SOLO'
+table d_Cultura
 	lineageTag: 4e7672f8-0d17-4f88-8461-8e9f2cfd1a3d
 
 	column ID_PROP
@@ -144,7 +144,7 @@ table 'USO DO SOLO'
 
 		annotation SummarizationSetBy = Automatic
 
-	partition 'USO DO SOLO' = m
+	partition d_Cultura = m
 		mode: import
 		source =
 				let
